@@ -47,7 +47,7 @@ desc_label = tk.Label(window, text="This is a simple object detector using OpenC
 desc_label.pack()
 
 # create background image
-bg_image = Image.open("anders-jilden-AkUR27wtaxs-unsplash.jpg")
+bg_image = Image.open("download.jpg")
 bg_image = bg_image.resize((800, 600), Image.ANTIALIAS)
 bg_image_tk = ImageTk.PhotoImage(bg_image)
 
